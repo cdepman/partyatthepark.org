@@ -1,10 +1,23 @@
-import Iframe from "react-iframe";
+import Script from "next/script";
+import Head from "next/head";
 
 export default function Calendar() {
-  <Iframe
-    src="https://widget.elfsig.ht/275fdadf-217a-4c14-b434-a71acc71ebf4"
-    width="100%"
-    height="700"
-    frameborder="0"
-  ></iframe>;
+  return (
+    <div>
+      <Head>
+        <title>Calendar</title>
+      </Head>
+      <div className="elfsight-app-cb642b36-2054-45e7-86c7-959b22432981"></div>
+      <Script
+        id="calendar"
+        src="https://static.elfsight.com/platform/platform.js"
+        strategy="onLazyLoad"
+        onLoad={() =>
+          console.log(
+            `script loaded correctly, window. calendar has been populated`
+          )
+        }
+      />
+    </div>
+  );
 }

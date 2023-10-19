@@ -1,9 +1,13 @@
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
+import Head from "next/head";
 
 export default function FirstPost() {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>Our Principles</title>
+      </Head>
       <h2>
         <Link href="/">Back to home</Link>
       </h2>
