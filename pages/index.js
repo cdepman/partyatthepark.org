@@ -41,7 +41,7 @@ export default function Home() {
 
           <Link
             className={styles.card}
-            href="https://calendar.google.com/calendar/embed?src=e6a3f660ab9a64b5bbf57b16224587e6e7a5e853ad661a51c1c26b7bd3536d11%40group.calendar.google.com&ctz=America%2FNew_York"
+            href="https://widget-cb642b36205445e786c7959b22432981.elfsig.ht"
           >
             <h1>Schedule</h1>
           </Link>
