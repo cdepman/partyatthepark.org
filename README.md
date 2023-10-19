@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is the website for partyatthepark.org. Want something changed or added? Create an issue or make a pull request!

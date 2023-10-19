@@ -1,6 +1,8 @@
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
+  background: #0d121c;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,21 +47,21 @@
   flex-wrap: wrap;
 
   max-width: 800px;
-  margin-top: 3rem;
+  margin-top: 1rem;
 }
 
 .card {
+  color: #0070f3;
   margin: 1rem;
-  flex-basis: 45%;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
+  flex-basis: 80%;
+  padding: 0.5rem;
+  text-align: center;
+  box-shadow: #009aff 2px 1px 7px 1px;
+  color: white;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
-  transition:
-    color 0.15s ease,
-    border-color 0.15s ease;
+  transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .card:hover,
@@ -71,7 +73,6 @@
 
 .card h3 {
   margin: 0 0 1rem 0;
-  font-size: 1.5rem;
 }
 
 .card p {
@@ -85,8 +86,14 @@
 }
 
 @media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
+  .title {
+    margin: 0 0 1rem;
+    line-height: 1.15;
+    font-size: 2.2rem;
+  }
+  .description {
+    line-height: 1;
+    font-size: 1.1rem;
+    padding: 0 5%;
   }
 }
